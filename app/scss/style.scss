@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+h1{
+    color:red;
+    text-align: center;
+    margin: 50% auto;
+}
+
+body{
+    background-color: silver;
+}
+.box{
+    display: flex;
+    
+}
