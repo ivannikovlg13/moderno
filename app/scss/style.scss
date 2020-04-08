@@ -275,7 +275,7 @@
         display: flex;
         justify-content: space-between;
     }
-    &__item{
+.advantages__item{
         max-width: 370px;
         text-align: center;
         padding: 0 15px;
@@ -291,8 +291,8 @@
         //         color:$green;
         //     }
 
-    }
-        &-images{
+}
+.advantages__item-images{
         // for svg//
         //     height: 114px;
         //     width: 114px;
@@ -303,18 +303,19 @@
             justify-content: center;
             align-items: center;
             margin: 0 auto 30px;
-        }
-        &-title{
+}
+.advantages__item-title{
             // transition:all .5s;
             margin-bottom: 25px;
             color: #fff;
             @include f500;
             font-size: 24px;
         }
-        &-text{
+.advantages__item-text{
             font-size: 15px;
         }
     }
+
 
 
 
